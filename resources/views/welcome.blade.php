@@ -97,4 +97,29 @@
             </div>
         </div>
     </body>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyBghOdDHdAEZM7I_DUuF2ChEmUlzCgpEhI",
+        authDomain: "smart-school-apps-25be8.firebaseapp.com",
+        databaseURL: "https://smart-school-apps-25be8.firebaseio.com",
+        projectId: "smart-school-apps-25be8",
+        storageBucket: "smart-school-apps-25be8.appspot.com",
+        messagingSenderId: "34383189782",
+        appId: "1:34383189782:web:6c7ff5839fca8baf986237",
+        measurementId: "G-TG0XDH0GR3"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 </html>

@@ -30,4 +30,15 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'firebase' => [
+        'api_key' => 'AIzaSyBghOdDHdAEZM7I_DUuF2ChEmUlzCgpEhI',
+        'auth_domain' => 'smart-school-apps-25be8.firebaseapp.com',
+        'database_url' => 'https://smart-school-apps-25be8.firebaseio.com',
+        'project_id' => 'smart-school-apps-25be8',
+        'storage_bucket' => 'smart-school-apps-25be8.appspot.com',
+        'messaging_sender_id' => '34383189782',
+        'app_id' => '1:34383189782:web:6c7ff5839fca8baf986237',
+        'measurement_id' => 'G-TG0XDH0GR3',
+    ],
+
 ];
